@@ -1,0 +1,45 @@
+table {
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #F8FF95;
+    margin-bottom: 50px;
+}
+
+td {
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+td, th{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table-header{
+    font-weight: bold;
+}
+.Main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.input{
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Main {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
